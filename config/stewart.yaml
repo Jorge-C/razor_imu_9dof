@@ -1,0 +1,29 @@
+## USB port
+port: /dev/razor
+
+
+##### Calibration ####
+### accelerometer
+accel_x_min: -289.0
+accel_x_max: 292.0
+accel_y_min: -263.0
+accel_y_max: 316.0
+accel_z_min: -279.0
+accel_z_max: 232.0
+
+### magnetometer — should be calibrated when IMU is mounted to stewart platform
+# standard calibration
+magn_x_min: -600.0
+magn_x_max: 600.0
+magn_y_min: -600.0
+magn_y_max: 600.0
+magn_z_min: -600.0
+magn_z_max: 600.0
+
+# AHRS to robot calibration
+imu_yaw_calibration: 0.0
+
+### gyroscope
+gyro_average_offset_x: -40.71
+gyro_average_offset_y: 17.44
+gyro_average_offset_z: -2.55
